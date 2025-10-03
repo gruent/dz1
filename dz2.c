@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <math.h>
+#include <locale.h>
 
 int main()
 {
+    setlocale(LC_CTYPE, "RUS");
     int he, an, ko;      
     double g = 9.81;     
     double a_rad, L, a, t, V;
